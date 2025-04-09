@@ -1,0 +1,143 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonte e fundo padrão */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f8ff;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Título principal */
+header h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #3a3a99;
+  margin-bottom: 10px;
+}
+
+/* Estilo dos navs */
+nav {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 15px 0;
+  flex-wrap: wrap;
+}
+
+/* Estilo comum aos links */
+nav a {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+/* Links para outras páginas */
+nav a[href$=".html"] {
+  background-color: #e0f0ff;
+  color: #1e90ff;
+  border: 1px solid #1e90ff;
+}
+
+nav a[href$=".html"]:hover {
+  background-color: #1e90ff;
+  color: white;
+}
+
+/* Links internos (#) */
+nav a[href^="#"] {
+  background-color: #e6fbe6;
+  color: #228b22;
+  border: 1px solid #228b22;
+}
+
+nav a[href^="#"]:hover {
+  background-color: #228b22;
+  color: white;
+}
+
+/* Seções */
+section {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Títulos das seções */
+section h2, section h1 {
+  color: #3a3a99;
+  margin-bottom: 10px;
+}
+
+/* Listas */
+ul, ol {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+ul li, ol li {
+  margin-bottom: 5px;
+}
+
+/* Parágrafos */
+p {
+  margin-bottom: 10px;
+}
+.cor-azul {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #007BFF;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+.cor-verde {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #097a22;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+.cor-vermelho {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #df1111;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+.cor-amarelo {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #ffbb00;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+.cor-preto {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #000000;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+.cor-branco {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: #cfc4c4;
+  margin-right: 6px;
+  border-radius: 2px;
+}
